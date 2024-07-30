@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navsecond {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-button {
+    margin: auto;
+    font-size: 12px;
+}
+
+.login-button {
+    margin: 0 20px;
+}
+
+.nav-button h2 {
+    color: white;
+}
+
+.login-button i {
+    margin-right: 15px;
+    color: white;
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottum-nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottum-nav-logo {
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+.bottum-nav-logo img {
+    padding: 0 20px;
+}
+
+.link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.link ul a {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.bottum-icon a {
+    font-size: 30px;
+}
+
+
+.bottum-icon,
+button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    /* margin: 0 10px; */
+}
+
+
+
+.banner-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 900px;
+    
+}
+.mohit-nav{
+    position: relative;
+}
+
+
+.mohit-banner2{
+    position: absolute;
+    background-image: url(img/spaghetti-1932466_1280.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.texting {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    font-size: bold;
+
+}
+
+
+.texting h1 span {
+    font-size: 7rem;
+}
+/* 
+ .texting button{
+    padding: 10px 50px;
+    border: none;
+}  */
+
+.texting button:hover{
+    /* background-color: red; */
+}
+
+
+
+
+
+.mid-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 440px;
+}
+
+.mid-items .mid-item img{
+    width: 150px;
+    color: brown;
+}
+
+.mid-item{
+    text-align: center;
+    width: 300px;
+}
+
+.mid-item h1{
+    font-size: 50px;
+}
+.mid-item p{
+    font-size: 20px;
+}
+.centar-btn{
+    padding-bottom: 90px;
+    padding-top: 20px;
+    text-align: center; 
+}
+.centar-btn button{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 7px 90px;
+    border:1px solid rgb(247, 155, 155);
+    background-color: rgb(245, 241, 174);
+    color: rgb(247, 155, 155);
+}
+
+.centar-btn button:hover{
+    color: white;
+    background-color: rgb(101, 3, 3);
+    transition: all ease-in 0.4s;
+}
+
+
+.centar-background2{
+    background-image: url(img/annie-spratt-_VxyFCTEpW8-unsplash.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+.centar{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.centar-back-h1{
+    margin-top: 100px;
+width: 500px;
+}
+.centar-back-h1 h1{
+    padding: 20px 0;
+    color: rgb(11, 10, 3);
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centar-back-h1 p{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 400;
+    color: azure;
+}
+
+.lefts-rights{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    background-color: rgb(195, 245, 76);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    ;
+}
+
+
+.right{
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    height: 500px;
+    padding: 50px ;
+}
+.right-items{
+    
+    
+}
+
+.right h2{
+    font-size: 60px;
+    color: #fff;
+    
+}
+
+
+
+.right p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.righh-form option{
+    padding: 20px ;
+}
+
+.righh-form label{
+    font-size: 20px;
+}
+
+.righh-form input{
+    margin: 10px 0;
+    padding: 10px 12rem;
+    border-radius: 50px;
+}
